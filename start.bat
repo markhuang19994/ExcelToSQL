@@ -1,1 +1,1 @@
-node forfun/live-server/live-server.js
+node project/live-server/live-server.js
