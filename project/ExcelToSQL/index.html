@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ninja</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            background-color: #cccccc17;
+        }
+
+        body,
+        h1,
+        h2,
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        .main-title {
+            margin: 0;
+            text-align: center;
+            font-size: 2.5rem;
+            padding: 0 2rem 0 2rem;
+        }
+
+        .main-div {
+            width: 90%;
+            margin: auto;
+            margin-top: 1rem;
+        }
+
+        .main-drop_container {
+            border: 5px dashed #ddd;
+            font-size: 2rem;
+            text-align: center;
+            height: 300px;
+            box-sizing: border-box;
+        }
+
+        .div-text-vertical-center {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .main-drop_text {
+            color: rgb(220, 215, 149);
+            letter-spacing: 1.5rem;
+            font-size: 3.5rem;
+        }
+
+        .main_excel_parameter {
+            font-size: 1.5rem;
+            line-height: 2.5rem;
+        }
+
+        .main_excel_parameter input {
+            height: 1.5rem;
+            width: 40rem;
+        }
+
+        .main_excel_parameter button {
+            height: 2.5rem;
+            width: 15rem;
+            font-size: 2rem;
+            margin-top: 1rem;
+            border: 2px solid black;
+            background-image: linear-gradient( 45deg, #4affb4, #0be3ff);
+        }
+
+        .main_excel_parameter button:hover {
+            background-image: linear-gradient( 45deg, #0be3ff, #4affb4);
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.0/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.0/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
+    <script src="./js/xlsx.full.min.js"></script>
+</head>
+
+<body>
+    <main id="root"></main>
+    <script type="text/babel" src="./js/main.js"></script>
+</body>
+
+</html>
