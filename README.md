@@ -1,5 +1,6 @@
-## ExcelToSQL
+ExcelToSQL
 =============
+
 1.啟動方式: start.bat
 
 2.功能: 把excel格式的資料轉成INSERT INTO "表格名" ("欄位1", "欄位2", ...);
